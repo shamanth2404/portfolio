@@ -1,0 +1,67 @@
+.hero{
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    position: relative;
+
+    .wrapper{
+        max-width: 1366px;
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        
+
+        .textContainer{
+            height: 100%;
+            width: 50%;      
+            display: flex;
+            flex-direction: column;
+            justify-content: center;            
+            gap: 20px;
+            margin-left: 50px;
+
+            h2{
+                font-size: 25px;
+                color: rebeccapurple;
+                letter-spacing: 10px;
+            }
+
+            h1{
+                font-size: 75px;
+
+            }
+
+            .buttons{
+                button{
+                    padding: 20px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    color: white;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    // .slidingTextContainer{
+    //     position: absolute;
+    //     font-size: 50vh;  
+    //     bottom: -70px;   
+    //     white-space: nowrap;
+    //     color: #ffffff09; 
+    //     width: 100%;
+    //     font-weight: bold;          
+    // }
+
+    .imageContainer{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        img{
+            height: 100%;
+        }
+    }
+}

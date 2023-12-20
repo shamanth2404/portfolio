@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       {/* sidebar */}
-      <Sidebar />
+      {/* <Sidebar /> */}
       <div className="wrapper">
         <span>Shamanth K Murthy</span>
         <div className="social">

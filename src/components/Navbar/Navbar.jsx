@@ -1,10 +1,12 @@
 import React from 'react'
 import './navbar.scss'
+import Sidebar from '../Sidebar/Sidebar'
 
 const Navbar = () => {
   return (
     <div className='navbar'>
       {/* sidebar */}
+      <Sidebar />
       <div className="wrapper">
         <span>Shamanth K Murthy</span>
         <div className="social">

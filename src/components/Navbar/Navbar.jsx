@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       {/* sidebar */}
-      {/* <Sidebar /> */}
+      <Sidebar />
       <div className="wrapper">
-        <span>Shamanth K Murthy</span>
+        <span></span>
         <div className="social">
             <img src="/facebook.png" alt="" />
             <img src="/instagram.png" alt="" />

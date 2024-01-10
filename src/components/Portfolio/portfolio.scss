@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .portfolio{
     position: relative;
     
@@ -10,7 +12,10 @@
         color: orange;
         font-size: 25px;
         padding-top: 30px;
-       
+
+        @include mobile{
+            padding-top: calc(100vh - 100px);
+        }      
 
         .progressBar{
             height: 8px;
@@ -29,20 +34,40 @@
         .wrapper{
             max-width: 1366px;
             height: 100%;
-            margin: auto;
+            margin: 0 50px;
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 50px;
 
+            @include tablet{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding-top: 200px;
+                text-align: center;
+                
+            }
+
+            @include mobile{
+                flex-direction: column;                
+                gap: 0;
+                padding-top: 100px;
+            }
+
             .imageContainer{
                 flex: 1;
-                height: 50%;
+                height: 75%;               
 
                 img{
                     width: 100%;
                     height: 100%;
-                    object-fit: cover;
+                    object-fit: contain;
+
+                    @include mobile{
+                        object-fit: contain;
+                    }
                 }
             }
     
@@ -50,7 +75,16 @@
                 flex: 1;
                 display: flex; 
                 flex-direction: column;
-                gap: 25px;
+                gap: 25px; 
+                
+                @include tablet{
+                    padding-top: calc(50vh - 350px);
+                }
+
+                @include mobile{
+                    padding-top: calc(50vh - 150px);
+                    text-align: center;
+                }
                 
                 h1{
                     font-size: 45px;

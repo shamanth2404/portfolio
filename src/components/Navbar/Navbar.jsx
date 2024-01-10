@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='navbar'>
       {/* sidebar */}
       <Sidebar />
-      <div className="wrapper">
+      {/* <div className="wrapper">
         <span></span>
         <div className="social">
             <img src="/facebook.png" alt="" />
@@ -15,7 +15,7 @@ const Navbar = () => {
             <img src="/youtube.png" alt="" />
             <img src="/dribbble.png" alt="" />
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

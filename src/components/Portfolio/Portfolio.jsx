@@ -1,31 +1,47 @@
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
+import instgram from '../../assets/InstagramClone.png';
+import blinkit from '../../assets/BlinkitClone.png';
+import news from '../../assets/NewsApp.png';
+import admin from '../../assets/AdminDashboard.png';
+import medicare from '../../assets/MediCare.png';
 
 const items = [
   {
     id: 1,
-    title: "Amazon Clone",
-    img: "https://www.performics.com/in/wp-content/uploads/sites/6/2023/06/amazon-3.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptate saepe a ipsam. Aliquid rem corrupti repudiandae rerum officiis reiciendis.",
+    title: "MediCare",
+    img: medicare,
+    desc: "Doctor Appointment Managing system developed using MERN - MongoDB , Express.js , ReactJs , Node.js. It includes User registration , login , authentication.",
+    github : "",
   },
   {
     id: 2,
-    title: "Amazon Clone",
-    img: "https://www.performics.com/in/wp-content/uploads/sites/6/2023/06/amazon-3.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptate saepe a ipsam. Aliquid rem corrupti repudiandae rerum officiis reiciendis.",
+    title: "Admin Dashboard",
+    img: admin,
+    desc: "Developed an Admin Dashboard web application using React.js and Material-UI as the primary frontend technologies. Used Nivo - a ReactJs library to include graphs/charts in the website",
+    github : "",
   },
   {
     id: 3,
-    title: "Amazon Clone",
-    img: "https://www.performics.com/in/wp-content/uploads/sites/6/2023/06/amazon-3.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptate saepe a ipsam. Aliquid rem corrupti repudiandae rerum officiis reiciendis.",
+    title: "News App",
+    img: news,
+    desc: "An API based frontend project (HTML , CSS , JavaScript) ",
+    github : "",
   },
   {
     id: 4,
-    title: "Amazon Clone",
-    img: "https://www.performics.com/in/wp-content/uploads/sites/6/2023/06/amazon-3.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptate saepe a ipsam. Aliquid rem corrupti repudiandae rerum officiis reiciendis.",
+    title: "Blinkit Clone",
+    img: blinkit,
+    desc: "Responsive Clone of an e-commerce website using BootStrap ",
+    github : "",
+  },
+  {
+    id: 5,
+    title: "Instagram Clone",
+    img: instgram,
+    desc: "HTML CSS Only",
+    github : "",
   },
 ];
 
@@ -48,7 +64,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{y}}>
             <h1>{item.title}</h1>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <a href={item.github}><button>Github Link</button></a>
           </motion.div>
         </div>
       </div>

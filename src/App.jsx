@@ -1,29 +1,29 @@
-import './app.scss'
-import Contact from './components/Contact/Contact';
-import Cursor from './components/Cursor/Cursor';
-import Navbar from './components/Navbar/Navbar';
-import Parallax from './components/Parallax/Parallax';
-import Portfolio from './components/Portfolio/Portfolio';
-import Hero from './components/hero/hero';
+import "./app.scss";
+import Contacts from "./components/Contact/Contacts";
+
+
+import Cursor from "./components/Cursor/Cursor";
+import Navbar from "./components/Navbar/Navbar";
+import Parallax from "./components/Parallax/Parallax";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Hero from "./components/hero/hero";
 
 const App = () => {
   return (
     <div>
       {/* <Cursor /> */}
-      <section id='Home'>
+      <section id="Home">
         <Navbar />
         <Hero />
-      </section>
-      
-      <section id='Services'><Parallax type="Service"/></section>
-      <section>Services</section>
+      </section>      
       <section id='Portfolio'><Parallax type="Portfolio" /></section>
       <Portfolio />
-      <section id='Contact'>
-        <Contact />
+      <section id="Contact">
+        <Parallax type="Contact" />
       </section>
-      
-
+      <section id='Contacts'>
+        <Contacts/>
+      </section>
     </div>
   );
 };

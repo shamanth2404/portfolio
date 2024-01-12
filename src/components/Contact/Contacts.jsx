@@ -9,8 +9,8 @@ const Contacts = () => {
     <div className="contacts">
       <div className="contact">
         <img src={gmail} alt="" />
-        <h2>Mail</h2>
-        <span>shamanthk2404@gmail.com</span>
+        <h2>Gmail</h2>
+        <a href="mailto:shamanthk2404@gmail.com">shamanthk2404@gmail.com</a>
       </div>
       <div className="contact">
         <img src={linkedIn} alt="" />
@@ -20,7 +20,7 @@ const Contacts = () => {
       <div className="contact">
         <img src={instagram} alt="" />
         <h2>Instagram</h2>
-        <span>@shamanthkmurthy</span>
+        <a href="https://www.instagram.com/shamanthkmurthy/">@shamanthkmurthy</a>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ const Sidebar = () => {
 
   const variants = {
     open:{
-      clipPath: "circle(1220px at 50px 50px",
+      clipPath: "circle(1220px at 50px 50px)",
       transition:{
         type: "spring",
         stiffness: 20,
@@ -31,7 +31,7 @@ const Sidebar = () => {
       <motion.div className="bg" variants={variants}>
         <Links />
       </motion.div>
-      <ToggleButton setOpen={setOpen} />
+      <ToggleButton setOpen={setOpen} open={open} />
     </motion.div>
   )
 }

@@ -6,9 +6,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    color: white;
-    
-    
+    color: white;    
 
     .bg{
         position: fixed;
@@ -22,6 +20,7 @@
         @include mobile{
             width: 200px;
         }
+        
         .links{
             position: absolute;
             width: 100%;

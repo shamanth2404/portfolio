@@ -2,10 +2,10 @@ import React from 'react'
 import { IoClose } from "react-icons/io5";
 import { FaBars } from "react-icons/fa";
 
-const ToggleButton = ({setOpen}) => {
+const ToggleButton = ({open , setOpen}) => {
   return (
     <button onClick={() => setOpen((prev)=>!prev)}>
-      {open ? <FaBars /> : <IoClose />  }
+      {open ? <IoClose /> : <FaBars />  }
     </button>
   )
 }

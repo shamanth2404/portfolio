@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Links from './links/Links'
 import ToggleButton from './toggleButton/ToggleButton'
-import { motion } from '../framer-motion';
+import { motion } from 'framer-motion';
 import './Sidebar.scss'
 
 const Sidebar = () => {

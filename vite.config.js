@@ -12,4 +12,13 @@ export default defineConfig({
   optimizeDeps: {
     include: ['framer-motion'],
   },
+  module: {
+    rules: [
+      {
+        test: /\.mjs$/,
+        include: /node_modules/,
+        type: 'javascript/auto',
+      },
+    ],
+  },
 })

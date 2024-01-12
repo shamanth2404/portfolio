@@ -9,4 +9,7 @@ export default defineConfig({
       external: ["framer-motion"],
     },
   },
+  optimizeDeps: {
+    include: ['framer-motion'],
+  },
 })

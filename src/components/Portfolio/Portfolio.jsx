@@ -1,5 +1,5 @@
 import "./portfolio.scss";
-import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 import React, { useRef } from "react";
 import instgram from '../../assets/InstagramClone.png';
 import blinkit from '../../assets/BlinkitClone.png';

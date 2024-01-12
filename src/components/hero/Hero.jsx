@@ -1,25 +1,25 @@
 import React from "react";
 import "./hero.scss";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import github from '../../assets/github-icon.png'
 import linkedIn from '../../assets/linkedIn-logo.png'
 import leetCode from '../../assets/LeetCode_logo.png'
 import codeChef from '../../assets/codeChef-logo.png'
 
 const Hero = () => {
-  const sliderVariants = {
-    initial: {
-      x: 1000,
-    },
-    animate: {
-      x: "-250%",
-      transition: {
-        repeat: "Infinity",
-        repeatType: "mirror",
-        duration: 10,
-      },
-    },
-  };
+  // const sliderVariants = {
+  //   initial: {
+  //     x: 1000,
+  //   },
+  //   animate: {
+  //     x: "-250%",
+  //     transition: {
+  //       repeat: "Infinity",
+  //       repeatType: "mirror",
+  //       duration: 10,
+  //     },
+  //   },
+  // };
   return (    
     <div className="hero">
       <div className="wrapper">

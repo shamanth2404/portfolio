@@ -13,35 +13,35 @@ const items = [
     title: "MediCare",
     img: medicare,
     desc: "Doctor Appointment Managing system developed using MERN - MongoDB , Express.js , ReactJs , Node.js. It includes User registration , login , authentication.",
-    github : "",
+    github : "https://github.com/shamanth2404/DoctorAppointment",
   },
   {
     id: 2,
     title: "Admin Dashboard",
     img: admin,
     desc: "Developed an Admin Dashboard web application using React.js and Material-UI as the primary frontend technologies. Used Nivo - a ReactJs library to include graphs/charts in the website",
-    github : "",
+    github : "https://github.com/shamanth2404/AdminDashboard",
   },
   {
     id: 3,
     title: "News App",
     img: news,
-    desc: "An API based frontend project (HTML , CSS , JavaScript) ",
-    github : "",
+    desc: "A dynamic and responsive web application that leverages APIs to provide users with curated news content developed using HTML, CSS, and JavaScript. ",
+    github : "https://github.com/shamanth2404/NewsApp",
   },
   {
     id: 4,
-    title: "Blinkit Clone",
+    title: "E-Commerce Website",
     img: blinkit,
-    desc: "Responsive Clone of an e-commerce website using BootStrap ",
-    github : "",
+    desc: "A  Bootstrap based e-commerce website, offers a clean and responsive design using its grid system",
+    github : "https://github.com/shamanth2404/e-commerce",
   },
   {
     id: 5,
     title: "Instagram Clone",
     img: instgram,
-    desc: "HTML CSS Only",
-    github : "",
+    desc: "A simple, HTML and CSS-based project that emulates the core visual elements of Instagram's interface.It provides a snapshot of the original website, offering a responsive layout",
+    github : "https://github.com/shamanth2404/SocialMediaPlatform",
   },
 ];
 
@@ -64,7 +64,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{y}}>
             <h1>{item.title}</h1>
             <p>{item.desc}</p>
-            <a href={item.github}><button>Github Link</button></a>
+            <a href={item.github} target="_blank"><button>Github Link</button></a>
           </motion.div>
         </div>
       </div>

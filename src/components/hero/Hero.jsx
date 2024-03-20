@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="wrapper">
         <div className="textContainer">
           <h2>SHAMANTH K MURTHY</h2>
-          <h1>Front End Developer</h1>
+          <h1>Full Stack Developer</h1>
           <div className="buttons">
             <a href="#Portfolio"><button>See the Latest Works</button></a>
             <a href="#Contact"><button>Conatct Me</button></a>

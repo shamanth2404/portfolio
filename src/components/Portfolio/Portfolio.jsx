@@ -6,38 +6,46 @@ import blinkit from '../../assets/BlinkitClone.png';
 import news from '../../assets/NewsApp.png';
 import admin from '../../assets/AdminDashboard.png';
 import medicare from '../../assets/MediCare.png';
+import field from '../../assets/field2door.png';
 
 const items = [
   {
     id: 1,
+    title: "Field2Door",
+    img: field,
+    desc: "A website through which farmers can directly sell their products to customers. Designed and implemented the compelete backend using Node.js, Express.js and MySql to store data, integrating it with frontend(HTML,CSS,JS) designed by my teammates.",
+    github : "https://github.com/Shree-sudhanva-k/web-development/tree/main/Backend",
+  },
+  {
+    id: 2,
     title: "MediCare",
     img: medicare,
     desc: "Doctor Appointment Managing system developed using MERN - MongoDB , Express.js , ReactJs , Node.js. It includes User registration , login , authentication.",
     github : "https://github.com/shamanth2404/DoctorAppointment",
   },
   {
-    id: 2,
+    id: 3,
     title: "Admin Dashboard",
     img: admin,
     desc: "Developed an Admin Dashboard web application using React.js and Material-UI as the primary frontend technologies. Used Nivo - a ReactJs library to include graphs/charts in the website",
     github : "https://github.com/shamanth2404/AdminDashboard",
   },
   {
-    id: 3,
+    id: 4,
     title: "News App",
     img: news,
     desc: "A dynamic and responsive web application that leverages APIs to provide users with curated news content developed using HTML, CSS, and JavaScript. ",
     github : "https://github.com/shamanth2404/NewsApp",
   },
   {
-    id: 4,
+    id: 5,
     title: "E-Commerce Website",
     img: blinkit,
     desc: "A  Bootstrap based e-commerce website, offers a clean and responsive design using its grid system",
     github : "https://github.com/shamanth2404/e-commerce",
   },
   {
-    id: 5,
+    id: 6,
     title: "Instagram Clone",
     img: instgram,
     desc: "A simple, HTML and CSS-based project that emulates the core visual elements of Instagram's interface.It provides a snapshot of the original website, offering a responsive layout",

@@ -91,8 +91,15 @@
                 }
 
                 p{
-                    color: gray;
+                    color: rgb(166, 165, 165);
                     font-size: 15px;
+                    background-color: #3f3f506a;                    
+                    padding: 20px 10px;
+                    border-radius: 10px;
+
+                    @include mobile{
+                        width: 100%;
+                    }
                 }
 
                 button{
@@ -102,6 +109,32 @@
                     padding: 10px;
                     width: 200px;
                     cursor: pointer;
+                }
+                img{
+                    height: 30px;
+                    width: 30px;
+                }
+                div{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    
+                    @include mobile{
+                        width: 100%;
+                    }
+                }
+                .icon{
+                    font-size: 30px;
+                    color: whitesmoke;
+                }
+                .tech{
+                    background-color: rgba(102, 51, 153, 0.498);
+                    width: auto;
+                    height: 10px;
+                    font-style: 12px;  
+                    display: flex;
+                    align-items: center;
+                    padding: 15px 10px;                  
                 }
             }
         }

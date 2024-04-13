@@ -176,3 +176,51 @@
 .hero::-webkit-scrollbar{
     display: none;
 }
+
+.profiles {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    // box-shadow: 0 10px 6px rgba(160, 200, 222, 0.1);    
+    transition: transform 0.1s;
+  }
+  
+  .profile:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Keyframes for floating effect */
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply floating effect to profiles */
+  .profile:nth-child(1) {
+    animation: float 3s ease-in-out infinite 0s; /* Delay for the first profile */
+  }
+  
+  .profile:nth-child(2) {
+    animation: float 3s ease-in-out infinite 2s; /* Delay for the second profile */
+  }
+  
+  .profile:nth-child(3) {
+    animation: float 3s ease-in-out infinite 1.5s; /* Delay for the third profile */
+  }
+  
+  .profile:nth-child(4) {
+    animation: float 3s ease-in-out infinite 3.5s; /* Delay for the fourth profile */
+  }
+  

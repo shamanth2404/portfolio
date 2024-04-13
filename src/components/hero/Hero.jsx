@@ -28,11 +28,11 @@ const Hero = () => {
           <h1>Full Stack Developer</h1>
           <div className="buttons">
             <a href="#Portfolio"><button>See the Latest Works</button></a>
-            <a href="#Contact"><button>Conatct Me</button></a>
+            <a href="#Contact"><button>Contact Me</button></a>
           </div>
         </div>
         <div className="profileContainer">
-          <h2>PROFILES</h2>
+          
           <div className="profiles">
             <div className="profile">
               <a href="https://github.com/shamanth2404" target="_blank">

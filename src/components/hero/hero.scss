@@ -3,21 +3,20 @@
 .hero{
     height: 100%;
     width: 100%;    
-    background: linear-gradient(180deg, #0c0c1d, #111132);
+    background: #0c0c1d;
     position: relative;
     padding-bottom: 100px;
 
-    .wrapper{
-        max-width: 1366px;
+    .wrapper{        
         width: 100%;        
         height: 100%;
         display: flex;
         align-items: center;
-        margin-left: 100px;
+        padding-left: 100px;
 
         @include tablet{
             width: 100%;
-            margin-left: 0;
+            padding-left: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -33,7 +32,7 @@
 
         .textContainer{
             height: 100%;
-            width: 50%;      
+            width: 100%;      
             display: flex;
             flex-direction: column;
             justify-content: center;            
@@ -50,14 +49,18 @@
                 gap: 10px;
                 height: 50%;
                 align-items: center;
-                margin-left: 0;
+                padding-left: 0;
                 text-align: center;
             }
 
             h2{
-                font-size: 25px;
+                font-size: 35px;
                 color: rebeccapurple;
                 letter-spacing: 10px;
+                
+                @include tablet{
+                    font-size: 40px;
+                }
 
                 @include mobile{
                     font-size: 25px;
@@ -101,20 +104,28 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            padding-right: 150px;
+            padding-bottom: 50px;
+            
             
             .profiles{                
                 display: flex;
                
                 
                 .profile{
-                   width: 150px;
-                   height: 150px;
-                   margin: 10px;
-                   border: 1px solid white;
+                   width: 120px;
+                   height: 120px;
+                   
+                  //  border: 1px solid white;
                    border-radius: 10px;
                    display: flex;
                    align-items: center;
-                   margin-top: 20px;
+                  //  margin-top: 20px;
+
+                  @include tablet{
+                    width: 100px;
+                    height: 100px;
+                  }
 
                    @include mobile{
                     width: 100px;
@@ -129,7 +140,7 @@
                    flex-direction: column;
                    align-items: center;
                    justify-content: center;
-                   gap: 20px;
+                  //  gap: 20px;
                    
                    color: white;
                    text-decoration: none;
@@ -143,6 +154,9 @@
                    
                     
                 }
+            }
+            @include tablet{
+                padding-right: 0px;
             }
         }
     }
@@ -183,8 +197,8 @@
   }
   
   .profile {
-    margin: 20px;
-    padding: 10px;
+    // margin: 20px;
+    // padding: 10px;
     border-radius: 8px;
     // box-shadow: 0 10px 6px rgba(160, 200, 222, 0.1);    
     transition: transform 0.1s;
@@ -200,7 +214,7 @@
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-10px);
+      transform: translateY(-6px);
     }
     100% {
       transform: translateY(0);
@@ -208,19 +222,22 @@
   }
   
   /* Apply floating effect to profiles */
-  .profile:nth-child(1) {
-    animation: float 3s ease-in-out infinite 0s; /* Delay for the first profile */
-  }
+  // .profile:nth-child(1) {
+  //   animation: float 3s ease-in-out infinite 0s; /* Delay for the first profile */
+  //   padding-bottom: 100px;
+  // }
   
-  .profile:nth-child(2) {
-    animation: float 3s ease-in-out infinite 2s; /* Delay for the second profile */
-  }
+  // .profile:nth-child(2) {
+  //   animation: float 3s ease-in-out infinite 2s; /* Delay for the second profile */
+  //   padding-top: 100px;
+  // }
   
-  .profile:nth-child(3) {
-    animation: float 3s ease-in-out infinite 1.5s; /* Delay for the third profile */
-  }
+  // .profile:nth-child(3) {
+  //   animation: float 3s ease-in-out infinite 0s; /* Delay for the third profile */
+    
+  // }
   
-  .profile:nth-child(4) {
-    animation: float 3s ease-in-out infinite 3.5s; /* Delay for the fourth profile */
-  }
+  // .profile:nth-child(4) {
+  //   animation: float 3s ease-in-out infinite 2s; /* Delay for the fourth profile */
+  // }
   

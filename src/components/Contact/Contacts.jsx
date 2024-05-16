@@ -3,24 +3,30 @@ import './contacts.scss';
 import gmail from '../../assets/Gmail_icon.jpg';
 import linkedIn from '../../assets/linkedIn-logo.png';
 import instagram from '../../assets/Instagram_icon.png.jpg';
+import github from '../../assets/github-icon.png'
+import leetCode from '../../assets/LeetCode_logo.png'
+import codeChef from '../../assets/codeChef-logo.png'
 
 const Contacts = () => {
   return (
     <div className="contacts">
+      <h1>Profiles :</h1>
       <div className="contact">
-        <img src={gmail} alt="" />
-        <h2>Gmail</h2>
-        <a href="mailto:shamanthk2404@gmail.com">shamanthk2404@gmail.com</a>
+        <img src={leetCode} alt="" />
+        <h2>Leetcode</h2>
+        <p>Highest Rating: <span>1550</span></p>
+        <p><span>180+</span> Problems Solved</p>
       </div>
       <div className="contact">
-        <img src={linkedIn} alt="" />
-        <h2>LinkedIn</h2>
-        <a href="http://www.linkedin.com/in/shamanth-k-murthy-161494278" target="_blank">Shamanth K Murthy</a>
+        <img src={codeChef} alt="" />
+        <h2>CodeChef</h2>
+        <p>Highest Rating: <span> 1240</span></p>  
+        <p><span>70+</span> Problems Solved</p>      
       </div>
       <div className="contact">
-        <img src={instagram} alt="" />
-        <h2>Instagram</h2>
-        <a href="https://www.instagram.com/shamanthkmurthy/">@shamanthkmurthy</a>
+        <img src={github} alt="" />
+        <h2>Github</h2>
+        <p><span>15+</span> Repos</p>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ const Links = () => {
   const items = [
     "Home",    
     "Projects",
-    "Contact",    
+    "Profiles",    
   ];
 
   const variants = {

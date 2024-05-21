@@ -9,14 +9,15 @@ const App = () => {
   return (
     <div>
       <section id="Home">
-        <Navbar />
+        {/* <Navbar /> */}
         <Hero />
       </section>
+      
       {/* <section id="Portfolio">
         <Parallax type="Portfolio" />
       </section> */}
       <Portfolio />
-      {/* <section id="Contact">
+      {/* <section id="Contact">c
         <Parallax type="Contact" />
       </section> */}
       <section id="Contacts">

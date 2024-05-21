@@ -36,10 +36,10 @@ const Hero = () => {
         <div className="textContainer">
           <h2>SHAMANTH K MURTHY</h2>
           <h1>Full Stack Developer</h1>
-          <div className="buttons">
-            <a href="#Portfolio"><button>See the Latest Works</button></a>
+          {/* <div className="buttons">
+            <a href="#portfolio"><button>See the Latest Works</button></a>
             <a href="#Contacts"><button>Profiles</button></a>
-          </div>
+          </div> */}
         </div>
         <div className="profileContainer">
           

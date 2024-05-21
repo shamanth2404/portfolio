@@ -4,8 +4,8 @@ import { motion } from '../../../../node_modules/framer-motion';
 const Links = () => {
   const items = [
     "Home",    
-    "Projects",
-    "Profiles",    
+    "Profiles",
+    "Portfolio",    
   ];
 
   const variants = {

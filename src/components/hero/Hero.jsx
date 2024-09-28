@@ -30,16 +30,22 @@ const Hero = () => {
   //     },
   //   },
   // };
+  const openPdf = () => {
+    window.open('/ShamanthKMurthyResume.pdf', '_blank');
+  };
+  
   return (    
-    <div className="hero">
+    <div className="hero">      
+      {/* <a href="#Home" className="home">Home</a> */}
       <div className="wrapper">
         <div className="textContainer">
           <h2>SHAMANTH K MURTHY</h2>
           <h1>Full Stack Developer</h1>
-          {/* <div className="buttons">
-            <a href="#portfolio"><button>See the Latest Works</button></a>
+          <div className="buttons">
+            <button onClick={openPdf}>Resume</button>            
+            <a href="#Portfolio"><button>Projects</button></a>
             <a href="#Contacts"><button>Profiles</button></a>
-          </div> */}
+          </div>
         </div>
         <div className="profileContainer">
           

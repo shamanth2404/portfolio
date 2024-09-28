@@ -11,23 +11,29 @@ const Contacts = () => {
   return (
     <div className="contacts">
       <h1>Profiles :</h1>
+      <a href="https://leetcode.com/u/shamanthk2404/" target="_blank">
       <div className="contact">
         <img src={leetCode} alt="" />
         <h2>Leetcode</h2>
         <p>Highest Rating: <span>1550</span></p>
-        <p><span>180+</span> Problems Solved</p>
+        <p><span>260+</span> Problems Solved</p>
       </div>
+      </a>
+      <a href="https://www.codechef.com/users/shamanthk2404" target="_blank">
       <div className="contact">
         <img src={codeChef} alt="" />
         <h2>CodeChef</h2>
-        <p>Highest Rating: <span> 1240</span></p>  
-        <p><span>70+</span> Problems Solved</p>      
+        <p>Highest Rating: <span> 1385</span></p>  
+        <p><span>90+</span> Problems Solved</p>      
       </div>
+      </a>
+      <a href="https://github.com/shamanth2404" target="_blank">
       <div className="contact">
         <img src={github} alt="" />
         <h2>Github</h2>
         <p><span>15+</span> Repos</p>
       </div>
+      </a>
     </div>
   );
 };
